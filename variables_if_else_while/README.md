@@ -7,3 +7,4 @@
 2-print_alphabet.c | Prints the lowercase alphabet with putchar
 3-print_alphabets.c | Prints the alphabet in lowercase, then uppercase, with putchar
 4-print_alphabt.c | Prints the lowercase alphabet except q and e
+5-print_numbers.c | Prints all single digit numbers from 0 to 9
