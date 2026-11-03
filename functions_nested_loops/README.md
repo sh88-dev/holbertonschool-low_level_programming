@@ -10,3 +10,4 @@ main.h | Protoypes for all functions in this project
 4-isalpha.c | _isalpha: returns 1 if c is a letter, 0 otherwise
 5-sign.c | print_sign: prints + / 0 / - and returns 1 / 0 / -1
 6-abs.c | _abs: return the absolute value of an integer
+7-print_last_digit.c | print_last_digit: prints and returns the last digit of a number
