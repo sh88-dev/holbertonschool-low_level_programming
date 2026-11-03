@@ -13,3 +13,4 @@ main.h | Protoypes for all functions in this project
 7-print_last_digit.c | print_last_digit: prints and returns the last digit of a number
 8-24_hours.c | jack_bauer: prints every minute of the day from 00:00 to 23:59
 9-times_tables.c | times_table: prints the 9 times table, starting with 0
+10-add.c | add: adds two integers and returns the result
