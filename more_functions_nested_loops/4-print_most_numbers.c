@@ -1,5 +1,11 @@
 #include "main.h"
 
+/**
+ *
+ * print_most_numbers prints 0 to 8 except 2 and 4
+ *
+ */
+
 void print_most_numbers(void)
 {
 	int n;
