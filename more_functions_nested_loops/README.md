@@ -7,3 +7,4 @@
 4-print_most_numbers.c | print_most_numbers: prints 0 to 9 except 2 and 4, then a new line
 5-more_numbers.c | more_numbers: prints 0 to 14 ten times, each followed by a new line
 6-print_lines.c | print_lines: draws a line of n underscores, followed by a new line
+7-print_diagonal.c | print_diagonal: draws a diagonal of n backslashes, followed by a new line
