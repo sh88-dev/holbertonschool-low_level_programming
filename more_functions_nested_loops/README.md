@@ -9,3 +9,4 @@
 6-print_lines.c | print_lines: draws a line of n underscores, followed by a new line
 7-print_diagonal.c | print_diagonal: draws a diagonal of n backslashes, followed by a new line
 8-print_square.c | print_square: prints a size x size square of #, followed by a new line
+9-fizz_buzz.c | program: prints 1 to 100 with Fizz, Buzz and FizzBuzz for multiples of 3 and 5 or both
