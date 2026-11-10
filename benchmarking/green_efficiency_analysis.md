@@ -41,7 +41,7 @@
 - The tasks may have run in different sandbox sessions, so times are only compared within the same program, never across tasks.
 - Runtime is only a proxy; no watts were measured.
 
-## Practical Engineering Conclusion
+## Practical Engineering Takeaway
 
 - Choosing an algorithm that avoids repeated work made the biggest difference, turning a 2.49-second job into one of under a millisecond.
 - Measure before optimising, compare under the same conditions, and keep the raw results.
