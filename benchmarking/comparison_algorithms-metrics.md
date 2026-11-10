@@ -23,16 +23,17 @@ Single-pass algorithm time: 0.000097 seconds
 ## Run 3
 
 ```
+
 Naive algorithm result: 625025000
 Naive algorithm time: 2.486729 seconds
 Single-pass algorithm result: 25000
 Single-pass algorithm time: 0.000096 seconds
 ```
-| Run		| Naive (A) time (s) | Single-pass (B) time (s) |
-| 1   		| 2.487197           | 0.000096 	      	|
-| 2   		| 2.487293 	     | 0.000097			|
-| 3   		| 2.486729 	     | 0.000096 		|
-| **Average** 	| **2.487073** 	     | **0.000096** 	      	|
+| Run           | Naive (A) time (s) | Single-pass (B) time (s) |
+| 1             | 2.487197           | 0.000096                 |
+| 2             | 2.487293           | 0.000097                 |
+| 3             | 2.486729           | 0.000096                 |
+| **Average**   | **2.487073**       | **0.000096**             |
 
 ## Relative difference
 
