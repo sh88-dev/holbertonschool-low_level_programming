@@ -29,7 +29,10 @@ Choose an option
 ## Numeric behaviour
 
 ```
-TBC
+Ivalid option error if user types any number outside of valid range 0 to 4 - will be prompted to try again.
+Inputting 0 prints Bye! and quits the program.
+
+Operator options: TBC
 ```
 
 

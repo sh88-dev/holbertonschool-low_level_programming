@@ -1,26 +1,39 @@
 #include <stdio.h>
+
 /**
- * main - entry point
  *
- * Return: Always 0
- */
+ *main - entry point
+ *
+ **/
 int main(void)
 {
-	int choice = 0;
+	int option = 0;
+	int runmath = 1;
 
-	printf("Simple Calculator\n");
-	printf("1) Add\n"
-	       "2) Subtract\n"
-	       "3) Multiply\n"
-	       "4) Divide\n"
-	       "0) Quit\n");
-	printf("Choice: ");
-	scanf("%d", &choice);
-
-	if (choice == 0)
+	while (runmath == 1)
 	{
-		printf("Bye!\n");
-	}
+		printf("\n1) Add\n");
+		printf("2) Subtract\n");
+		printf("3) Multiply\n");
+		printf ("4) Divide\n");
+		printf("0) Quit\n");
+		printf("\nChoice: \n");
+		scanf("%d", &option);
 
+		if (option == 0)
+		{
+			runmath = 0;
+			printf("\nBye!\n");
+		}
+
+		else if (option < 0 || option > 4)
+		{
+			printf("\nOops!...");
+			printf("Invalid choice\n");
+			printf("\nChoose again: \n");
+			scanf("%d", &option);
+		}
+
+	}
 	return (0);
 }
