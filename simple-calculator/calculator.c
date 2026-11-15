@@ -39,23 +39,33 @@ int main(void)
                         scanf("%lf", &n1);
                         printf("B: ");
                         scanf("%lf", &n2);
-
-                        switch(option)
-                        {
-			case 1:
-                                result = (n1 + n2);
-                                break;
-
-			case 2:
-                                result = (n1 - n2);
-                                break;
-
-			case 3:
-                                result = (n1 * n2);
-                                break;
-                        }
-                        printf("Result: %g\n", result);
                 }
+
+                if (option == 4 && n2 == 0)
+                {
+                        printf("Error: division by zero\n");
+                }
+
+                else switch(option)
+		     {
+		     case 1:
+			     result = (n1 + n2);
+			     break;
+
+		     case 2:
+			     result = (n1 - n2);
+			     break;
+
+		     case 3:
+			     result = (n1 * n2);
+			     break;
+
+		     case 4:
+			     result = (n1 / n2);
+			     break;
+
+			     printf("Result: %g\n", result);
+		     }
         }
         return (0);
 }

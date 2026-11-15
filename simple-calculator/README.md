@@ -40,8 +40,8 @@ The result is printed afterwards.
 Operator options:
 Menu option 1, '+'
 Menu option 2, '-'
-Menu option 2, '*'
-'/' not yet implemented
+Menu option 3, '*'
+Menu option 4, '/'
 
 ```
 
