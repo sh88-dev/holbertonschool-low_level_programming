@@ -45,6 +45,10 @@ int main(void)
 			case 1:
                                 result = (n1 + n2);
                                 break;
+
+			case 2:
+                                result = (n1 - n2);
+                                break;
                         }
                         printf("Result: %g\n", result);
                 }

@@ -39,7 +39,7 @@ The result is printed afterwards.
 
 Operator options:
 Menu option 1, '+'
-'-' not yet implemented
+Menu option 2, '-'
 '*' not yet implemented
 '/' not yet implemented
 
