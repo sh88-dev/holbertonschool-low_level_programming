@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
  *
  *main - entry point
@@ -7,33 +6,48 @@
  **/
 int main(void)
 {
-	int option = 0;
-	int runmath = 1;
+        int option = 0;
+        int runmath = 1;
+        double n1, n2, result;
 
-	while (runmath == 1)
-	{
-		printf("\n1) Add\n");
-		printf("2) Subtract\n");
-		printf("3) Multiply\n");
-		printf ("4) Divide\n");
-		printf("0) Quit\n");
-		printf("\nChoice: \n");
-		scanf("%d", &option);
+        while (runmath == 1)
+        {
+                printf("Simple Calculator\n");
+                printf("1) Add\n");
+                printf("2) Subtract\n");
+                printf("3) Multiply\n");
+                printf ("4) Divide\n");
+                printf("0) Quit\n");
+                printf("Choice: ");
+                scanf("%d", &option);
 
-		if (option == 0)
-		{
-			runmath = 0;
-			printf("\nBye!\n");
-		}
+                if (option == 0)
+                {
+                        runmath = 0;
+                        printf("\nBye!\n");
+                }
 
-		else if (option < 0 || option > 4)
-		{
-			printf("\nOops!...");
-			printf("Invalid choice\n");
-			printf("\nChoose again: \n");
+                else if (option < 0 || option > 4)
+                {
+			printf("Invalid choice: \n");
 			scanf("%d", &option);
-		}
+                }
 
-	}
-	return (0);
+                else
+                {
+                        printf("A: ");
+                        scanf("%lf", &n1);
+                        printf("B: ");
+                        scanf("%lf", &n2);
+
+                        switch(option)
+                        {
+			case 1:
+                                result = (n1 + n2);
+                                break;
+                        }
+                        printf("Result: %g\n", result);
+                }
+        }
+        return (0);
 }
