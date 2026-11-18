@@ -41,7 +41,7 @@ int main(void)
                         scanf("%lf", &n2);
                 }
 
-                if (option == 4 && n2 == 0)
+                if (option == 4 || n2 == 0)
                 {
                         printf("Error: division by zero\n");
                 }
@@ -64,8 +64,8 @@ int main(void)
 			     result = (n1 / n2);
 			     break;
 
-			     printf("Result: %g\n", result);
-		     }
+			     }
+		printf("Result: %g\n", result);
         }
         return (0);
 }
