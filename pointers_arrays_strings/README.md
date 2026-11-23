@@ -12,4 +12,7 @@ Task 8 - 8-print_array.c Function that prints n elements of an array of integers
 Task 9 - 9-strcpy.c Function that copies a string, including the terminating null byte, to a buffer and returns a pointer to it.
 Task 10 - 100-atoi.c Function that converts a string to an integer.
 
-Task 0 - 0-strcat.c Function that concatenates two strings .
+# C - More pointers, arrays and strings
+
+Task 0 - 0-strcat.c Function that concatenates two strings.
+Task 1 -  1-strncat.c Function that concatenates two strings, using at most n bytes from src |
