@@ -29,3 +29,4 @@ Task 0 - 0-memset.c Function that fills the first n bytes of a memory area with 
 Task 1 - 1-memcpy.c Function that copies n bytes from memory area src to memory area dest.
 Task 2 - 2-strchr.c Function that locates a character in a string and returns a pointer to its first occurrence, or NULL.
 Task 3 - 3-strspn.c Function that gets the length of a prefix substring made only of bytes from accept.
+Task 4 - 4-strpbrk.c Function that searches a string for any of a set of bytes and returns a pointer to the first match, or NULL.
