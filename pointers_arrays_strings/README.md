@@ -31,3 +31,4 @@ Task 2 - 2-strchr.c Function that locates a character in a string and returns a 
 Task 3 - 3-strspn.c Function that gets the length of a prefix substring made only of bytes from accept.
 Task 4 - 4-strpbrk.c Function that searches a string for any of a set of bytes and returns a pointer to the first match, or NULL.
 Task 5 - 5-strstr.c Function that locates a substring and returns a pointer to its beginning, or NULL if it is not found.
+Task 6 - 7-print_chessboard.c Function that prints the chessboard.
