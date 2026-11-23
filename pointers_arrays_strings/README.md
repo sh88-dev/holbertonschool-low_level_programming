@@ -15,4 +15,5 @@ Task 10 - 100-atoi.c Function that converts a string to an integer.
 # C - More pointers, arrays and strings
 
 Task 0 - 0-strcat.c Function that concatenates two strings.
-Task 1 -  1-strncat.c Function that concatenates two strings, using at most n bytes from src |
+Task 1 -  1-strncat.c Function that concatenates two strings, using at most n bytes from src.
+Task 2 - 2-strncpy.c Function that copies at most n bytes of a string, padding with null bytes, like strncpy.
