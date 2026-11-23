@@ -26,3 +26,4 @@ Task 7 - 7-leet.c Function that encodes a string into 1337.
 # C - Even more pointers, arrays and strings
 
 Task 0 - 0-memset.c Function that fills the first n bytes of a memory area with a constant byte.
+Task 1 - 1-memcpy.c Function that copies n bytes from memory area src to memory area dest.
