@@ -19,3 +19,4 @@ Task 1 -  1-strncat.c Function that concatenates two strings, using at most n by
 Task 2 - 2-strncpy.c Function that copies at most n bytes of a string, padding with null bytes, like strncpy.
 Task 3 - 3-strcmp.c Function that compares two strings, like strcmp.
 Task 4 - 4-rev_array.c Function that reverses the content of an array of integers.
+Task 5 - 5-string_toupper.c Function that changes all lowercase letters of a string to uppercase.
